@@ -1,0 +1,260 @@
+.Header {
+  background: #ffffff;
+  position: fixed;
+  width: 1440px;
+  height: 70px;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header-Logo {
+  width: 73px;
+  height: 63px;
+}
+.Menu {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h5 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+h1 {
+  color: rgb(51, 51, 45);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 10%;
+  margin-bottom: 30px;
+}
+a {
+  font-family: "Montserrat" sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+  transition: color 0.3s ease;
+
+  &.active {
+    color: #bd1d1d;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 63px;
+}
+.navigete {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.create-product {
+  color: rgb(51, 51, 45);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 10%;
+  text-align: center;
+  margin: 20px 0px 30px 0px;
+}
+.Create {
+  margin-top: 100px;
+}
+.create-email {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  width: 365px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.name {
+  width: 549px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.price {
+  width: 549px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.create-button {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 3%;
+  text-align: left;
+  border-radius: 10px;
+  background: rgb(221, 170, 39);
+  padding: 22px 67px;
+}
+.productCard {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 337px;
+  height: 276px;
+  border-radius: 15px;
+  background: rgb(217, 217, 217);
+}
+.productcard {
+  margin-left: 20px;
+}
+.menu-image {
+  width: 295px;
+  height: 185px;
+  border-radius: 10px;
+}
+
+.menu-name {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 3%;
+}
+.to-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-bottun {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+  border-radius: 10px;
+  background: rgb(221, 170, 39);
+  padding: 10px 20px;
+}
+.menu-price {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.BASKET {
+  margin: 0 auto;
+}
+.basket-image {
+  width: 186px;
+  height: 90px;
+  border-radius: 10px;
+}
+.order-menu {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 3%;
+  margin-top: 50px;
+  margin-left: 470px;
+  border-radius: 10px;
+  background: rgb(32, 149, 58);
+  padding: 13px 50px 13px 49px;
+}
+.Basket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.basket {
+  width: 700px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+  display: flex;
+  justify-content: space-between;
+}
+.basket-card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.basket-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.incriments {
+  display: flex;
+  gap: 23px;
+}
+.basket-remove-btn {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: left;
+  border-radius: 10px;
+  background: rgb(189, 29, 29);
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.order-btn {
+  border-radius: 10px;
+  background: rgb(221, 170, 39);
+  width: 40px;
+  height: 28px;
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 477px;
+  height: 289px;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+}
+.create-block {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 300px;
+}
